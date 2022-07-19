@@ -26,8 +26,12 @@ const power = function(num1, num2) {
 	return num1 ** num2;
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	let total = 1;
+  for (i = num; i > 0; i--) {
+    total *= i;
+  }
+  return total;
 };
 
 // Do not edit below this line
